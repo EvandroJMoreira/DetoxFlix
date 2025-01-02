@@ -1,5 +1,11 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 body {
-    background-color:black;
+    background-color: black;
     margin: 0;
     padding: 0;
     font-family: "Poppins", serif;
@@ -9,7 +15,7 @@ body {
 
 ul {
     height: 25px;
-    width: 95%; /* Largura */
+    width: 95%;
     display: flex;
     justify-content: space-between;
     list-style-type: none;
@@ -17,33 +23,42 @@ ul {
 }
 
 .img-topo {
-    height: 80px;  /* Altura */
+    height: 80px;
 }
 
 video {
-    width: 100vw; /* Largura */
-    min-height: 80vh; /* Altura */
+    width: 100vw;
+    min-height: 70vh;
+    order: 1;
 }
 
 .capa {
-    position: absolute;
-    bottom: 20%;   /* TOP - CIMA, BOTTOM - BAIXO, LEFT - ESQUERDA, RIGHT- DIREITA */
-    left: 5%;
+    position: relative;
+    bottom: 20%;
+    left: 2%;
     width: 30%;
     z-index: 3;
+    order: 2;
+    align-items: normal;
 }
 
 .capa-titulo {
     color: black;
-    font-size: 80px;  /* Tamanho da fonte */
+    background-color: aliceblue;
+    border-radius: 20px;
+    font-size: 80px;
     margin-bottom: 5px;
-    font-weight: bold; /* Grossura da fonte */
+    font-weight: bold;
+    opacity: 60%;
 }
 
 .capa-descricao {
-    color: white;
+    color: aliceblue;
+    background-color: black;
+    border-radius: 20px;
     font-size: 20px;
     margin-bottom: 20px;
+    opacity: 60%;
 }
 
 .link-assistir {
@@ -51,7 +66,8 @@ video {
     color: black;
     padding: 10px 20px;
     border-radius: 4px;
-    cursor: pointer; /* Mãosinha */
+    cursor: pointer;
+    position: calc(100vh - 70%);
 }
 
 .link-info {
@@ -63,23 +79,24 @@ video {
 }
 
 .imagem-carrossel {
-    height: 100px;
+    height: 200px;
 }
 
 #carouselExampleControls {
     background-color: transparent;
     position: absolute;
-    bottom: 10px;
-    left: 50px;
+    bottom: 20%;
+    left: 35%;
 }
 
 .titulo-carrossel {
     color: white;
-    font-size: 30px;   
+    font-size: 30px;
     margin-bottom: 10px;
 }
 
-/* 
-    Classe = .
-    ID = #
-*/
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    background-color: black;
+    background-size: 100%;
+    border-radius: 50%;
+}
