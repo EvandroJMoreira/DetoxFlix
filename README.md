@@ -9,6 +9,6 @@
 <br>
 <h2>Como fica a página</h2>
 <h2>Desktop</h2>
-<img src="https://github.com/EvandroJMoreira/DetoxFlix/blob/main/img/print01.png?raw=true" width=500px> <img src="[./img/print02.png/](https://github.com/EvandroJMoreira/DetoxFlix/blob/main/img/print02.png?raw=true)" width=500px>
+<img src="https://github.com/EvandroJMoreira/DetoxFlix/blob/main/img/print01.png?raw=true" width=500px> <img src="https://github.com/EvandroJMoreira/DetoxFlix/blob/main/img/print02.png?raw=true" width=500px>
 <h2>Responsivo</h2>
-<img src="[./img/print03.png/](https://github.com/EvandroJMoreira/DetoxFlix/blob/main/img/print03.png?raw=true)" height=500px> <img src="[./img/print04.png/](https://github.com/EvandroJMoreira/DetoxFlix/blob/main/img/print04.png?raw=true)" height=500px>
+<img src="https://github.com/EvandroJMoreira/DetoxFlix/blob/main/img/print03.png?raw=true" height=500px> <img src="https://github.com/EvandroJMoreira/DetoxFlix/blob/main/img/print04.png?raw=true" height=500px>
