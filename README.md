@@ -8,7 +8,7 @@
 <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="logo-css3">
 <br>
 <h2>Como fica a página</h2>
-<h2>Desktop</h2>
+<h3>Desktop</h3>
 <img src="https://github.com/EvandroJMoreira/DetoxFlix/blob/main/img/print01.png?raw=true" width=500px> <img src="https://github.com/EvandroJMoreira/DetoxFlix/blob/main/img/print02.png?raw=true" width=500px>
-<h2>Responsivo</h2>
+<h3>Responsivo</h3>
 <img src="https://github.com/EvandroJMoreira/DetoxFlix/blob/main/img/print03.png?raw=true" height=500px> <img src="https://github.com/EvandroJMoreira/DetoxFlix/blob/main/img/print04.png?raw=true" height=500px>
